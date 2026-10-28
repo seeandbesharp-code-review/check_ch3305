@@ -2,6 +2,9 @@
 
 
 
+    //In C#, public properties are written in PascalCase (Email, FirstName, LastName, Password, Id).
+    //If you rename them, text.txt still has the old names, so read it with
+    //new JsonSerializerOptions { PropertyNameCaseInsensitive = true }
     public class User
     {
         [EmailAddress]

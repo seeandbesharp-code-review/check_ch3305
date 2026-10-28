@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 
+    //In C#, public properties are written in PascalCase (Password, Email)
     public class LoginUser
     {
         
